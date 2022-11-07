@@ -8,7 +8,6 @@ function generateHTML(employeeData) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
         <title>Team Tracker</title>
     </head>
     
@@ -23,7 +22,7 @@ function generateHTML(employeeData) {
             width: 100%;
         }
 
-        .head {
+        .header {
             background-color: rgb(47, 144, 255);
             padding-left: 20px;
         }
@@ -63,7 +62,7 @@ function generateHTML(employeeData) {
     for (let i = 0; i < employeeData.length; i++) {
         if (employeeData[i].getRole() === "Manager") {
             const managerCard = `<div class="employee">
-                <div class="head">
+                <div class="headerr">
                 <h3>${employeeData[i].name}</h3>
                 <h4>Manager</h4>
                 </div>
@@ -76,7 +75,7 @@ function generateHTML(employeeData) {
             html = html + managerCard
         } else if (employeeData[i].getRole() === "Engineer") {
             const engineerCard = `<div class="employee">
-                <div class="head">
+                <div class="header">
                 <h3>${employeeData[i].name}</h3>
                 <h4>Engineer</h4>
                 </div>
@@ -89,7 +88,7 @@ function generateHTML(employeeData) {
             html = html + engineerCard
         } else if (employeeData[i].getRole() === "Intern") {
             const internCard = `<div class="employee">
-                <div class="head">
+                <div class="header">
                 <h3>${employeeData[i].name}</h3>
                 <h4>Intern</h4>
                 </div>
