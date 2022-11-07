@@ -40,7 +40,7 @@ describe("Intern", () => {
 
     describe("getRole", () => {
         it("should return the role of Intern", () => {
-            const obj = new Intern("Mabel", "01", "mabel@bagel.com", "Bagel University");
+            const obj = new Intern("Jeff", "001", "jeff@jeff.com", "School");
             expect(obj.getRole()).toEqual("Intern")
         })
     })

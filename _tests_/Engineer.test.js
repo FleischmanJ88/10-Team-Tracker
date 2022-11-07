@@ -39,7 +39,7 @@ describe("Engineer", () => {
 
     describe("getRole", () => {
         it("should return the role of Engineer", () => {
-            const obj = new Engineer("Mabel", "01", "mabel@bagel.com", "https://github.com/bagel");
+            const obj = new Engineer("Jeff", "001", "jeff@jeff.com", "https://github.com/FleischmanJ88");
             expect(obj.getRole()).toEqual("Engineer")
         })
     })

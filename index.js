@@ -139,9 +139,9 @@ function createNew() {
                 addEmployee()
 
             } else {
-                console.log("Goodbye")
+                console.log("Please Try Again another time")
                 const generatedHTML = generateHTML(newEmployees)
-                fs.writeFile("./dist/Team-Profile.html", generatedHTML, (err) => {
+                fs.writeFile("./Team-Profile.html", generatedHTML, (err) => {
                     if (err)
                         console.log(err);
                     else {
