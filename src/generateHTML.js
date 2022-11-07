@@ -62,7 +62,7 @@ function generateHTML(employeeData) {
     for (let i = 0; i < employeeData.length; i++) {
         if (employeeData[i].getRole() === "Manager") {
             const managerCard = `<div class="employee">
-                <div class="headerr">
+                <div class="header">
                 <h3>${employeeData[i].name}</h3>
                 <h4>Manager</h4>
                 </div>

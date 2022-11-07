@@ -53,7 +53,7 @@ https://github.com/FleischmanJ88/10-Team-Tracker
 
 ### <strong>Screenshot</strong>
 
-https://drive.google.com/file/d/1PyDvJ4vQbtwwY00wjoU3-aw6AMyowd7x/view
+https://drive.google.com/file/d/1e40d6Jq0f3qGf7IBPMASZzYSH3tfpqq6/view
 
 ### <strong>Contact Information</strong>
 
