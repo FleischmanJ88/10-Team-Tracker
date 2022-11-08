@@ -52,8 +52,8 @@ function addManager() {
             {
                 type: "input",
                 name: "office",
-                massage: "What is the employee's office number?"
-            },
+                message: "What is the employee's office number?"
+            }
         ]).then((data) => {
             const manager = new Manager(data.name, data.id, data.email, data.office)
             newEmployees.push(manager)
@@ -85,7 +85,7 @@ function addEngineer() {
             {
                 type: "input",
                 name: "github",
-                massage: "What is the employee's github account?"
+                message: "What is the employee's github account?"
             },
         ]).then((data) => {
             const engineer = new Engineer(data.name, data.id, data.email, data.github)
@@ -115,7 +115,7 @@ function addIntern() {
             {
                 type: "input",
                 name: "school",
-                massage: "What school did the intern attend?"
+                message: "What school did the intern attend?"
             },
         ]).then((data) => {
             const intern = new Intern(data.name, data.id, data.email, data.school)
