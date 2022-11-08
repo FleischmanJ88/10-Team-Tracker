@@ -53,12 +53,11 @@ function addManager() {
                 type: "input",
                 name: "office",
                 message: "What is the employee's office number?"
-            }
+            },
         ]).then((data) => {
             const manager = new Manager(data.name, data.id, data.email, data.office)
             newEmployees.push(manager)
             console.log("manager has been created ")
-
             createNew()
         })
 

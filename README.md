@@ -57,7 +57,7 @@ https://github.com/FleischmanJ88/10-Team-Tracker
 
 ### <strong>Video Requirement</strong>
 
-https://drive.google.com/file/d/1e40d6Jq0f3qGf7IBPMASZzYSH3tfpqq6/view
+https://drive.google.com/file/d/1uvQSqE6rmktXmUnQIzYdhvjojQa1VreO/view
 
 ### <strong>Contact Information</strong>
 
